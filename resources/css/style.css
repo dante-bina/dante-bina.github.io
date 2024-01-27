@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Walter Turncoat', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+}
+
+@font-face {
+  font-family: 'Macondo', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+}
+
+html {
+  background-color: #ffd4e5;
+}
+
+.header {
+  background-color: #b19cd9;
+  color: #feffa3;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'Walter Turncoat', cursive;
+  border-radius: 20px;
+}
+
+#title {
+  margin: 0;
+}
+
+.sections a{
+  display: flex;
+  align-items: center;
+}
+
+.sections a{
+  color: #feffa3;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.sections a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+  background-color:	#fef7e4;
+  font-family: 'Macondo', cursive;
+  font-size: 18px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#pfp {
+  width: 160px;
+  height: auto;
+  margin-right: 20px;
+  float: left;
+}
+
+.contacts {
+  background-color: #b19cd9;
+  color: #feffa3;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'Walter Turncoat', cursive;
+  border-radius: 20px;
+}
+
+#icon {
+  margin-right: 60px;
+}
